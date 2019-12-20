@@ -771,6 +771,200 @@ body #sponsers .wrapper .sponsersList article {
   border-radius: 5px;
 }
 
+body #contact {
+  width: 100%;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #contact .contactTitle {
+  height: 115px;
+  background: #cc4d4d;
+  width: 100%;
+  padding: 0 13.1%;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  border-bottom: solid 5px #e09494;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #contact .contactTitle:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 150px;
+  bottom: -5px;
+  left: 13.1%;
+  background: #666666;
+  border-left: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  opacity: .5;
+}
+
+body #contact .map {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+body #contact .map img {
+  width: 100%;
+}
+
+body #contact .title-alt {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+body #contact .content {
+  width: 100%;
+  padding: 60px 13.1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #contact .content form {
+  width: calc(75% - 15px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #contact .content form label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+body #contact .content form label b {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+body #contact .content form .wrapper {
+  width: 100%;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #contact .content form .wrapper div {
+  width: calc(33.33% - 15px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #contact .content form .wrapper div input {
+  background: #f0eff4;
+  border: solid 1px #dfdee2;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+body #contact .content form textarea {
+  width: 100%;
+  height: 220px;
+  background: #f0eff4;
+  border: solid 1px #dfdee2;
+  margin-bottom: 15px;
+}
+
+body #contact .content form button {
+  padding: 8px 20px;
+  background: #cc4d4d;
+  border-bottom: solid 4px #773838;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+body #contact .content .info {
+  width: calc(25% - 15px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 body #footer {
   width: 100%;
   padding: 70px 13.1%;
