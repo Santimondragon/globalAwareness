@@ -838,8 +838,7 @@ body #contact .title-alt {
   width: fit-content;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 20px;
   padding-bottom: 10px;
   position: relative;
 }
@@ -968,7 +967,6 @@ body #contact .content .info {
 
 body #contact .content .info .contact {
   width: 100%;
-  margin-bottom: 30px;
 }
 
 body #contact .content .info .contact li {
@@ -985,9 +983,9 @@ body #contact .content .info .contact li {
 }
 
 body #contact .content .info .contact li i {
-  width: 23px;
-  height: 23px;
-  border-radius: 23px;
+  width: 22px;
+  height: 22px;
+  border-radius: 22px;
   background: #cc4d4d;
   color: #ffffff;
   font-size: 11px;
@@ -1001,40 +999,6 @@ body #contact .content .info .contact li i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-body #contact .content .info .socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-body #contact .content .info .socials .social {
-  width: 25px;
-  height: 25px;
-  border-radius: 25px;
-  background: #cc4d4d;
-  margin-right: 6px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body #contact .content .info .socials .social i {
-  color: #ffffff;
-  font-size: 13px;
 }
 
 body #footer {
